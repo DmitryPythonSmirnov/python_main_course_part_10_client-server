@@ -1,0 +1,15 @@
+2022-06-01 23:03:21,750 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-01 23:03:21,750 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-01 23:03:21,750 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-01 23:03:21,751 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-01 23:03:21,751 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-01 23:03:21,751 INFO server_logger Порт для прослушивания: 7777
+2022-06-01 23:03:21,753 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-01 23:03:38,834 INFO server_logger Получено от клиента ('127.0.0.1', 54048): {'action': 'presence', 'time': 1654113818, 'user': {'account_name': 'Guest'}}
+2022-06-01 23:03:38,835 DEBUG server_logger Вызвана функция generate_msg_to_client с параметрами: args=({'action': 'presence', 'time': 1654113818, 'user': {'account_name': 'Guest'}},), kwargs={}, из модуля server.py, из функции main()
+2022-06-01 23:03:38,835 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK'}
+2022-06-01 23:03:38,835 INFO server_logger Отправлено сообщение клиенту ('127.0.0.1', 54048): {'response': 200, 'alert': 'OK', 'time': 1654113818}
+2022-06-01 23:03:38,844 INFO server_logger Получено от клиента ('127.0.0.1', 54049): {'action': 'authenticate', 'time': 1654113818, 'user': {'account_name': 'John', 'password': 'passw0rd'}}
+2022-06-01 23:03:38,845 DEBUG server_logger Вызвана функция generate_msg_to_client с параметрами: args=({'action': 'authenticate', 'time': 1654113818, 'user': {'account_name': 'John', 'password': 'passw0rd'}},), kwargs={}, из модуля server.py, из функции main()
+2022-06-01 23:03:38,845 WARNING server_logger Получен неверный запрос от клиента. Сообщение для отправки клиенту: {'response': 400, 'error': 'Bad request'}
+2022-06-01 23:03:38,846 INFO server_logger Отправлено сообщение клиенту ('127.0.0.1', 54049): {'response': 400, 'error': 'Bad request', 'time': 1654113818}

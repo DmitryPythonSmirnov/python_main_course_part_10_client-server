@@ -1,0 +1,22 @@
+2022-06-01 23:03:38,829 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,829 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-01 23:03:38,829 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-01 23:03:38,830 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,830 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-01 23:03:38,830 INFO client_logger Порт для подключения: 7777
+2022-06-01 23:03:38,832 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-01 23:03:38,833 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,833 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654113818, 'user': {'account_name': 'Guest'}}
+2022-06-01 23:03:38,834 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654113818, 'user': {'account_name': 'Guest'}}
+2022-06-01 23:03:38,835 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654113818}
+2022-06-01 23:03:38,839 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,840 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-01 23:03:38,840 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-01 23:03:38,840 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,840 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-01 23:03:38,841 INFO client_logger Порт для подключения: 7777
+2022-06-01 23:03:38,841 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-01 23:03:38,843 DEBUG client_logger Вызвана функция msg_auth с параметрами: args=(), kwargs={'account_name': 'John', 'password': 'passw0rd'}, из модуля client.py, из функции main()
+2022-06-01 23:03:38,843 INFO client_logger Сообщение для отправки на сервер: {'action': 'authenticate', 'time': 1654113818, 'user': {'account_name': 'John', 'password': 'passw0rd'}}
+2022-06-01 23:03:38,844 INFO client_logger Отправлено сообщение {'action': 'authenticate', 'time': 1654113818, 'user': {'account_name': 'John', 'password': 'passw0rd'}}
+2022-06-01 23:03:38,846 INFO client_logger Получено сообщение: {'response': 400, 'error': 'Bad request', 'time': 1654113818}
