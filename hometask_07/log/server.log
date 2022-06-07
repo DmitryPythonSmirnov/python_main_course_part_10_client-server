@@ -1,0 +1,271 @@
+2022-06-07 16:29:39,596 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 16:29:39,597 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 16:29:39,597 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 16:29:39,598 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 16:29:39,598 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 16:29:39,598 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 16:29:39,599 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 16:29:39,600 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 16:29:51,796 INFO server_logger Подключился клиент: ('127.0.0.1', 54330)
+2022-06-07 16:29:52,005 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654608591, 'user': {'account_name': 'Guest'}}
+2022-06-07 16:29:52,006 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654608592}
+2022-06-07 16:30:18,990 INFO server_logger Подключился клиент: ('127.0.0.1', 54335)
+2022-06-07 16:30:19,202 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654608618, 'user': {'account_name': 'Guest'}}
+2022-06-07 16:30:19,202 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654608619}
+2022-06-07 16:30:57,088 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654608656, 'from': 'Guest', 'message': 'qwe'}
+2022-06-07 16:30:57,089 INFO server_logger Клиент ('127.0.0.1', 54335) отключился
+2022-06-07 16:31:21,512 INFO server_logger Клиент ('127.0.0.1', 54330) отключился
+2022-06-07 17:04:09,614 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:09,615 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:09,616 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:04:09,616 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:04:09,617 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:09,617 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:04:09,617 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:04:09,619 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:04:18,351 INFO server_logger Подключился клиент: ('127.0.0.1', 54531)
+2022-06-07 17:04:18,567 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654610658, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:04:18,567 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654610658}
+2022-06-07 17:04:57,109 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:57,110 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:57,110 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:04:57,110 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:04:57,111 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:04:57,111 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:04:57,111 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:04:57,113 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:05:11,271 INFO server_logger Подключился клиент: ('127.0.0.1', 54538)
+2022-06-07 17:05:11,486 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654610711, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:05:11,486 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654610711}
+2022-06-07 17:09:14,139 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:09:14,140 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:09:14,140 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:09:14,140 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:09:14,141 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:09:14,141 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:09:14,141 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:09:14,142 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:09:24,766 INFO server_logger Подключился клиент: ('127.0.0.1', 54562)
+2022-06-07 17:09:26,782 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654610964, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:09:26,782 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654610966}
+2022-06-07 17:10:41,871 INFO server_logger Подключился клиент: ('127.0.0.1', 54570)
+2022-06-07 17:10:43,890 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654611041, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:10:43,890 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654611043}
+2022-06-07 17:11:14,075 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654611073, 'from': 'Guest', 'message': 'AAA'}
+2022-06-07 17:11:14,077 INFO server_logger Клиент ('127.0.0.1', 54570) отключился
+2022-06-07 17:19:48,981 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:19:48,982 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:19:48,982 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:19:48,982 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:19:48,983 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:19:48,983 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:19:48,983 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:19:48,985 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:19:56,473 INFO server_logger Подключился клиент: ('127.0.0.1', 54618)
+2022-06-07 17:19:58,481 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654611596, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:19:58,482 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654611598}
+2022-06-07 17:20:25,516 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:20:25,517 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:20:25,517 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:20:25,518 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:20:25,518 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:20:25,518 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:20:25,518 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:20:25,520 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:20:30,959 INFO server_logger Подключился клиент: ('127.0.0.1', 54627)
+2022-06-07 17:20:35,978 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654611630, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:20:35,980 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654611635}
+2022-06-07 17:21:07,698 INFO server_logger Подключился клиент: ('127.0.0.1', 54630)
+2022-06-07 17:21:12,712 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654611667, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:21:12,714 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654611672}
+2022-06-07 17:21:32,767 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654611688, 'from': 'Guest', 'message': 'AASS'}
+2022-06-07 17:21:32,770 INFO server_logger Клиент ('127.0.0.1', 54630) отключился
+2022-06-07 17:36:38,788 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:36:38,789 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:36:38,789 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:36:38,789 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:36:38,790 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:36:38,790 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:36:38,790 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:36:38,792 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:36:46,369 INFO server_logger Подключился клиент: ('127.0.0.1', 54759)
+2022-06-07 17:36:51,398 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654612606, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:36:51,399 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654612611}
+2022-06-07 17:37:24,463 INFO server_logger Подключился клиент: ('127.0.0.1', 54766)
+2022-06-07 17:37:29,479 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654612644, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:37:29,480 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654612649}
+2022-06-07 17:39:24,769 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654612761, 'from': 'Guest', 'message': 'QQQ'}
+2022-06-07 17:39:24,773 INFO server_logger Клиент ('127.0.0.1', 54759) отключился
+2022-06-07 17:46:57,616 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:46:57,617 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:46:57,617 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:46:57,617 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:46:57,618 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:46:57,618 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:46:57,618 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:46:57,620 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:47:03,892 INFO server_logger Подключился клиент: ('127.0.0.1', 54824)
+2022-06-07 17:47:08,909 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654613223, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:47:08,911 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654613228}
+2022-06-07 17:47:22,280 INFO server_logger Подключился клиент: ('127.0.0.1', 54830)
+2022-06-07 17:47:27,305 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654613242, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:47:27,307 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654613247}
+2022-06-07 17:47:47,355 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654613266, 'from': 'Guest', 'message': 'WWW'}
+2022-06-07 17:47:47,358 INFO server_logger Клиент ('127.0.0.1', 54830) отключился
+2022-06-07 17:53:28,950 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:53:28,951 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:53:28,951 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:53:28,951 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:53:28,952 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 17:53:28,952 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:53:28,952 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:53:28,953 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:53:34,187 INFO server_logger Подключился клиент: ('127.0.0.1', 54857)
+2022-06-07 17:53:39,201 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654613614, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:53:39,203 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654613619}
+2022-06-07 17:53:41,242 INFO server_logger Подключился клиент: ('127.0.0.1', 54859)
+2022-06-07 17:53:46,267 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654613621, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:53:46,268 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654613626}
+2022-06-07 17:54:01,305 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654613637, 'from': 'Guest', 'message': 'qaz'}
+2022-06-07 17:54:01,306 INFO server_logger Клиент ('127.0.0.1', 54859) отключился
+2022-06-07 17:57:56,861 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:57:57,940 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:57:57,940 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:57:57,942 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:57:57,944 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:57:57,944 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:57:57,945 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:57:57,946 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:58:53,139 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:58:53,143 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:58:53,143 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 17:58:53,145 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 17:58:53,148 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-07 17:58:53,148 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 17:58:53,149 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 17:58:53,150 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 17:59:08,773 INFO server_logger Подключился клиент: ('127.0.0.1', 54903)
+2022-06-07 17:59:21,445 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654613948, 'user': {'account_name': 'Guest'}}
+2022-06-07 17:59:42,430 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654613974}
+2022-06-07 18:00:27,597 INFO server_logger Подключился клиент: ('127.0.0.1', 54912)
+2022-06-07 18:01:04,492 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614018, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:01:18,407 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614075}
+2022-06-07 18:02:34,060 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614093, 'from': 'Guest', 'message': 'QA'}
+2022-06-07 18:03:34,690 INFO server_logger Клиент ('127.0.0.1', 54912) отключился
+2022-06-07 18:07:03,151 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:07:03,152 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:07:03,152 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 18:07:03,152 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 18:07:03,153 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:07:03,153 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 18:07:03,153 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 18:07:03,155 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 18:07:07,650 INFO server_logger Подключился клиент: ('127.0.0.1', 54967)
+2022-06-07 18:07:12,348 INFO server_logger Подключился клиент: ('127.0.0.1', 54968)
+2022-06-07 18:07:12,356 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614427, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:07:12,356 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614432}
+2022-06-07 18:07:17,376 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614432, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:07:17,377 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614437}
+2022-06-07 18:07:32,422 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614447, 'from': 'Guest', 'message': 'SSS'}
+2022-06-07 18:07:32,426 INFO server_logger Клиент ('127.0.0.1', 54968) отключился
+2022-06-07 18:11:00,072 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:11:00,073 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:11:00,073 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 18:11:00,073 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 18:11:00,074 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:11:00,074 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 18:11:00,074 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 18:11:00,076 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 18:11:07,177 INFO server_logger Подключился клиент: ('127.0.0.1', 54990)
+2022-06-07 18:11:12,198 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614667, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:11:12,199 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614672}
+2022-06-07 18:11:18,707 INFO server_logger Подключился клиент: ('127.0.0.1', 54993)
+2022-06-07 18:11:23,723 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614678, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:11:23,725 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614683}
+2022-06-07 18:11:28,734 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614686, 'from': 'Guest', 'message': 'asd'}
+2022-06-07 18:11:38,772 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614695, 'from': 'Guest', 'message': 'zxc'}
+2022-06-07 18:11:43,796 INFO server_logger Клиент ('127.0.0.1', 54993) отключился
+2022-06-07 18:12:02,678 INFO server_logger Подключился клиент: ('127.0.0.1', 54999)
+2022-06-07 18:12:07,693 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614722, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:12:07,694 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614727}
+2022-06-07 18:12:22,743 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614740, 'from': 'Guest', 'message': 'qqq'}
+2022-06-07 18:12:37,796 INFO server_logger Клиент ('127.0.0.1', 54999) отключился
+2022-06-07 18:14:22,201 INFO server_logger Подключился клиент: ('127.0.0.1', 55019)
+2022-06-07 18:14:27,221 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614862, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:14:27,226 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614867}
+2022-06-07 18:14:42,272 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614877, 'from': 'Guest', 'message': 'zxc'}
+2022-06-07 18:14:47,294 INFO server_logger Клиент ('127.0.0.1', 55019) отключился
+2022-06-07 18:15:23,966 INFO server_logger Подключился клиент: ('127.0.0.1', 55026)
+2022-06-07 18:15:28,983 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614923, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:28,984 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614928}
+2022-06-07 18:15:33,464 INFO server_logger Подключился клиент: ('127.0.0.1', 55028)
+2022-06-07 18:15:38,486 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614933, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:38,488 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614938}
+2022-06-07 18:15:53,539 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614951, 'from': 'Guest', 'message': 'AAA'}
+2022-06-07 18:16:03,563 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614961, 'from': 'Guest', 'message': 'BBB'}
+2022-06-07 18:16:13,132 INFO server_logger Подключился клиент: ('127.0.0.1', 55033)
+2022-06-07 18:16:18,143 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654614973, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:16:18,144 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654614978}
+2022-06-07 18:16:23,163 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654614981, 'from': 'Guest', 'message': 'DDD'}
+2022-06-07 18:16:33,206 INFO server_logger Клиент ('127.0.0.1', 55026) отключился
+2022-06-07 18:16:33,210 INFO server_logger Клиент ('127.0.0.1', 55033) отключился
+2022-06-07 18:17:01,344 INFO server_logger Клиент ('127.0.0.1', 54990) отключился
+2022-06-07 18:17:01,346 INFO server_logger Клиент ('127.0.0.1', 55028) отключился
+2022-06-07 18:18:50,072 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:18:50,073 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:18:50,073 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 18:18:50,073 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 18:18:50,074 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:18:50,074 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 18:18:50,074 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 18:18:50,076 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 18:19:01,921 INFO server_logger Подключился клиент: ('127.0.0.1', 55079)
+2022-06-07 18:19:06,927 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615141, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:06,928 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615146}
+2022-06-07 18:19:13,724 INFO server_logger Подключился клиент: ('127.0.0.1', 55082)
+2022-06-07 18:19:18,750 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615153, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:18,751 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615158}
+2022-06-07 18:19:23,759 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615161, 'from': 'Guest', 'message': 'WWW'}
+2022-06-07 18:22:42,256 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:22:42,257 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:22:42,257 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 18:22:42,257 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 18:22:42,258 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:22:42,258 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 18:22:42,258 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 18:22:42,260 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 18:22:47,533 INFO server_logger Подключился клиент: ('127.0.0.1', 55118)
+2022-06-07 18:22:52,540 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615367, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:52,542 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615372}
+2022-06-07 18:22:54,645 INFO server_logger Подключился клиент: ('127.0.0.1', 55120)
+2022-06-07 18:22:59,648 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615374, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:59,649 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615379}
+2022-06-07 18:22:59,803 INFO server_logger Подключился клиент: ('127.0.0.1', 55121)
+2022-06-07 18:23:04,806 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615379, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:23:04,807 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615384}
+2022-06-07 18:23:14,836 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615393, 'from': 'Guest', 'message': 'fff'}
+2022-06-07 18:23:19,846 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615398, 'from': 'Guest', 'message': 'ghj'}
+2022-06-07 18:23:24,863 INFO server_logger Клиент ('127.0.0.1', 55121) отключился
+2022-06-07 18:23:29,868 INFO server_logger Клиент ('127.0.0.1', 55118) отключился
+2022-06-07 18:23:29,870 INFO server_logger Клиент ('127.0.0.1', 55120) отключился
+2022-06-07 18:23:53,617 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:23:53,619 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:23:53,619 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-07 18:23:53,619 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-07 18:23:53,620 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-07 18:23:53,620 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-07 18:23:53,620 INFO server_logger Порт для прослушивания: 7777
+2022-06-07 18:23:53,622 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-07 18:24:01,410 INFO server_logger Подключился клиент: ('127.0.0.1', 55130)
+2022-06-07 18:24:01,519 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615441, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:01,520 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615441}
+2022-06-07 18:24:06,686 INFO server_logger Подключился клиент: ('127.0.0.1', 55131)
+2022-06-07 18:24:06,792 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654615446, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:06,793 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654615446}
+2022-06-07 18:24:20,707 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615460, 'from': 'Guest', 'message': 'as'}
+2022-06-07 18:24:22,011 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615461, 'from': 'Guest', 'message': 'sd'}
+2022-06-07 18:24:22,879 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615462, 'from': 'Guest', 'message': 'df'}
+2022-06-07 18:24:24,072 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615464, 'from': 'Guest', 'message': 'fg'}
+2022-06-07 18:24:25,590 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654615465, 'from': 'Guest', 'message': 'hhj'}
+2022-06-07 18:24:44,815 INFO server_logger Клиент ('127.0.0.1', 55130) отключился
+2022-06-07 18:24:52,005 INFO server_logger Клиент ('127.0.0.1', 55131) отключился
