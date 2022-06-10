@@ -1,0 +1,464 @@
+2022-06-10 17:38:10,443 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:38:10,446 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:38:10,446 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 17:38:10,447 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 17:38:10,448 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:38:10,449 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 17:38:10,449 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 17:38:10,452 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 17:39:38,958 INFO server_logger Подключился клиент: ('127.0.0.1', 65367)
+2022-06-10 17:39:47,031 INFO server_logger Клиент ('127.0.0.1', 65367) отключился
+2022-06-10 17:39:56,529 INFO server_logger Подключился клиент: ('127.0.0.1', 65375)
+2022-06-10 17:40:05,035 INFO server_logger Подключился клиент: ('127.0.0.1', 65377)
+2022-06-10 17:40:28,665 INFO server_logger Клиент ('127.0.0.1', 65377) отключился
+2022-06-10 17:40:58,776 INFO server_logger Клиент ('127.0.0.1', 65375) отключился
+2022-06-10 17:45:05,735 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:45:05,737 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:45:05,737 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 17:45:05,738 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 17:45:05,739 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:45:05,740 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 17:45:05,740 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 17:45:05,742 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 17:45:20,260 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:45:20,264 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:45:20,265 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 17:45:20,267 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 17:45:20,271 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:45:20,276 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 17:45:20,277 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 17:45:20,283 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 17:45:36,975 INFO server_logger Подключился клиент: ('127.0.0.1', 65425)
+2022-06-10 17:45:48,457 INFO server_logger Клиент ('127.0.0.1', 65425) отключился
+2022-06-10 17:46:53,194 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:46:53,196 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:46:53,196 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 17:46:53,197 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 17:46:53,202 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 17:46:53,203 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 17:46:53,204 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 17:46:53,205 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 17:47:07,301 INFO server_logger Подключился клиент: ('127.0.0.1', 65438)
+2022-06-10 17:51:42,616 INFO server_logger Клиент ('127.0.0.1', 65438) отключился
+2022-06-10 17:56:34,203 INFO server_logger Подключился клиент: ('127.0.0.1', 65522)
+2022-06-10 17:57:15,748 INFO server_logger Клиент ('127.0.0.1', 65522) отключился
+2022-06-10 17:59:21,858 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:59:21,861 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:59:21,862 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 17:59:21,864 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 17:59:21,867 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:59:21,868 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 17:59:21,869 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 17:59:21,870 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 17:59:52,853 INFO server_logger Подключился клиент: ('127.0.0.1', 49177)
+2022-06-10 18:01:30,731 INFO server_logger Клиент ('127.0.0.1', 49177) отключился
+2022-06-10 18:02:12,091 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:02:12,093 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:02:12,094 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:02:12,096 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:02:12,100 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:02:12,100 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:02:12,101 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:02:12,103 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:02:43,817 INFO server_logger Подключился клиент: ('127.0.0.1', 49206)
+2022-06-10 18:03:06,747 INFO server_logger Клиент ('127.0.0.1', 49206) отключился
+2022-06-10 18:05:32,851 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:05:32,852 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:05:32,852 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:05:32,853 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:05:32,854 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:05:32,854 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:05:32,855 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:05:32,856 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:05:41,196 INFO server_logger Подключился клиент: ('127.0.0.1', 49231)
+2022-06-10 18:05:52,445 INFO server_logger Клиент ('127.0.0.1', 49231) отключился
+2022-06-10 18:07:40,312 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:07:40,313 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:07:40,314 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:07:40,314 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:07:40,315 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:07:40,315 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:07:40,316 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:07:40,317 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:07:49,412 INFO server_logger Подключился клиент: ('127.0.0.1', 49244)
+2022-06-10 18:07:58,975 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654873678, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:07:58,976 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654873678, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:07:58,978 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=(('test1', 'asd'), {}, [<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49244)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:10:40,825 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:10:40,829 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:10:40,829 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:10:40,832 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:10:40,835 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:10:40,836 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:10:40,837 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:10:40,839 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:10:50,113 INFO server_logger Подключился клиент: ('127.0.0.1', 49275)
+2022-06-10 18:11:00,497 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654873860, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:11:00,499 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654873860, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:11:00,506 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=(('test1', 'as'), {}, [<socket.socket fd=924, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49275)>]), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:17:02,185 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:17:02,189 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:17:02,190 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:17:02,197 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:17:02,201 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:17:02,202 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:17:02,204 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:17:02,207 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:17:12,850 INFO server_logger Подключился клиент: ('127.0.0.1', 49338)
+2022-06-10 18:17:22,090 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654874241, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:17:22,093 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654874241, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:17:22,101 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654874241, 'from': 'test1', 'to': 'test2', 'message': 'asd'}, {}, [<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49338)>]), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:17:38,754 ERROR server_logger Пользователь test2 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 18:18:33,970 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:18:33,971 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:18:33,971 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:18:33,972 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:18:33,973 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:18:33,973 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:18:33,974 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:18:33,977 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:18:41,875 INFO server_logger Подключился клиент: ('127.0.0.1', 49355)
+2022-06-10 18:18:53,554 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654874333, 'from': 'test1', 'to': 'test2', 'message': 'qqq'}
+2022-06-10 18:18:53,556 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654874333, 'from': 'test1', 'to': 'test2', 'message': 'qqq'}
+2022-06-10 18:18:53,558 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654874333, 'from': 'test1', 'to': 'test2', 'message': 'qqq'}, {}, [<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49355)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:18:53,559 ERROR server_logger Пользователь test2 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 18:19:08,596 INFO server_logger Подключился клиент: ('127.0.0.1', 49360)
+2022-06-10 18:19:25,483 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654874365, 'from': 'test2', 'to': 'test1', 'message': 'Hi'}
+2022-06-10 18:19:25,484 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654874365, 'from': 'test2', 'to': 'test1', 'message': 'Hi'}
+2022-06-10 18:19:25,485 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654874365, 'from': 'test2', 'to': 'test1', 'message': 'Hi'}, {}, [<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49355)>, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49360)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:19:25,486 ERROR server_logger Пользователь test1 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 18:19:49,518 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654874389, 'from': 'test1', 'to': 'test2', 'message': 'HiHi'}
+2022-06-10 18:19:49,520 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654874389, 'from': 'test1', 'to': 'test2', 'message': 'HiHi'}
+2022-06-10 18:19:49,522 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654874389, 'from': 'test1', 'to': 'test2', 'message': 'HiHi'}, {}, [<socket.socket fd=332, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49355)>, <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49360)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:19:49,523 ERROR server_logger Пользователь test2 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 18:19:55,150 INFO server_logger Клиент ('127.0.0.1', 49355) отключился
+2022-06-10 18:19:56,702 INFO server_logger Клиент ('127.0.0.1', 49360) отключился
+2022-06-10 18:20:37,232 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:20:37,237 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:20:37,238 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:20:37,240 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:20:37,243 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:20:37,244 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:20:37,245 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:20:37,246 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:20:50,763 INFO server_logger Подключился клиент: ('127.0.0.1', 49378)
+2022-06-10 18:21:19,162 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654874470, 'from': 'test1', 'to': 'test2', 'message': 'aaa'}
+2022-06-10 18:25:53,196 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:25:53,199 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:25:53,204 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:25:53,208 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:25:53,210 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:25:53,211 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:25:53,212 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:25:53,214 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:26:22,887 INFO server_logger Подключился клиент: ('127.0.0.1', 49431)
+2022-06-10 18:26:41,960 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654874782, 'user': {'account_name': 'test1'}}
+2022-06-10 18:27:00,384 INFO server_logger Клиент ('127.0.0.1', 49431) отключился
+2022-06-10 18:27:27,357 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:27:27,360 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:27:27,360 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:27:27,362 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:27:27,364 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:27:27,365 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:27:27,366 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:27:27,368 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:27:39,361 INFO server_logger Подключился клиент: ('127.0.0.1', 49443)
+2022-06-10 18:27:43,336 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654874859, 'user': {'account_name': 'test1'}}
+2022-06-10 18:30:33,372 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:30:33,375 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:30:33,376 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:30:33,378 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:30:33,381 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 18:30:33,381 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:30:33,383 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:30:33,385 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:30:44,020 INFO server_logger Подключился клиент: ('127.0.0.1', 49844)
+2022-06-10 18:30:48,543 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875044, 'user': {'account_name': 'test1'}}
+2022-06-10 18:31:05,923 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875058}
+2022-06-10 18:31:30,980 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:31:30,981 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:31:30,982 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:31:30,982 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:31:30,983 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:31:30,984 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:31:30,984 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:31:30,985 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:31:39,713 INFO server_logger Подключился клиент: ('127.0.0.1', 49852)
+2022-06-10 18:31:39,819 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875099, 'user': {'account_name': 'test1'}}
+2022-06-10 18:31:39,822 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875099}
+2022-06-10 18:31:53,616 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654875113, 'from': 'test1', 'to': 'test1', 'message': 'aaa'}
+2022-06-10 18:31:53,617 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654875113, 'from': 'test1', 'to': 'test1', 'message': 'aaa'}
+2022-06-10 18:31:53,619 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654875113, 'from': 'test1', 'to': 'test1', 'message': 'aaa'}, {'test1': <socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49852)>}, [<socket.socket fd=372, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49852)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:31:53,619 INFO server_logger Связь с клиентом test1 была потеряна
+2022-06-10 18:32:28,056 INFO server_logger Подключился клиент: ('127.0.0.1', 49853)
+2022-06-10 18:32:28,163 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875148, 'user': {'account_name': 'test1'}}
+2022-06-10 18:32:28,165 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875148}
+2022-06-10 18:32:38,576 INFO server_logger Подключился клиент: ('127.0.0.1', 49855)
+2022-06-10 18:32:38,681 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875158, 'user': {'account_name': 'test2'}}
+2022-06-10 18:32:38,683 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875158}
+2022-06-10 18:32:50,037 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654875169, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:32:50,037 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654875169, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:32:50,040 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654875169, 'from': 'test1', 'to': 'test2', 'message': 'asd'}, {'test1': <socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49853)>, 'test2': <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49855)>}, [<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49853)>, <socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49855)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:32:50,041 INFO server_logger Связь с клиентом test2 была потеряна
+2022-06-10 18:34:02,092 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:34:02,095 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:34:02,096 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:34:02,097 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:34:02,098 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:34:02,098 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:34:02,099 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:34:02,100 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:34:09,276 INFO server_logger Подключился клиент: ('127.0.0.1', 49870)
+2022-06-10 18:34:09,380 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875249, 'user': {'account_name': 'test1'}}
+2022-06-10 18:34:09,382 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875249}
+2022-06-10 18:34:17,903 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654875257, 'from': 'test1', 'to': 'test1', 'message': 'as'}
+2022-06-10 18:34:17,904 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654875257, 'from': 'test1', 'to': 'test1', 'message': 'as'}
+2022-06-10 18:34:17,907 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654875257, 'from': 'test1', 'to': 'test1', 'message': 'as'}, {'test1': <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49870)>}, [<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49870)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:34:17,908 INFO server_logger Связь с клиентом test1 была потеряна
+2022-06-10 18:36:11,941 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:36:11,942 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:36:11,942 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:36:11,942 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:36:11,943 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:36:11,944 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:36:11,944 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:36:11,946 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:36:18,490 INFO server_logger Подключился клиент: ('127.0.0.1', 49884)
+2022-06-10 18:36:18,606 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875378, 'user': {'account_name': 'test1'}}
+2022-06-10 18:36:18,606 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875378}
+2022-06-10 18:36:49,063 INFO server_logger Подключился клиент: ('127.0.0.1', 49907)
+2022-06-10 18:36:49,176 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654875409, 'user': {'account_name': 'test2'}}
+2022-06-10 18:36:49,178 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654875409}
+2022-06-10 18:37:04,969 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 18:37:04,970 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 18:37:04,971 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'}, {'test1': <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49884)>, 'test2': <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49907)>}, [<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49884)>, <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49907)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:37:04,971 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'} от пользователя test1 пользователю test1
+2022-06-10 18:37:32,376 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'}
+2022-06-10 18:37:32,377 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'}
+2022-06-10 18:37:32,378 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'}, {'test1': <socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49884)>, 'test2': <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49907)>}, [<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49884)>, <socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 49907)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:37:32,378 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'} от пользователя test1 пользователю test2
+2022-06-10 18:57:12,329 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:57:12,330 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:57:12,331 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:57:12,331 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:57:12,332 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:57:12,333 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:57:12,333 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:57:12,334 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:57:19,472 INFO server_logger Подключился клиент: ('127.0.0.1', 50118)
+2022-06-10 18:57:19,586 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876639, 'user': {'account_name': 'test1'}}
+2022-06-10 18:57:19,587 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876639}
+2022-06-10 18:57:28,955 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654876648, 'account_name': 'test1'}
+2022-06-10 18:58:39,203 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:58:39,206 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:58:39,208 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:58:39,208 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:58:39,209 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:58:39,210 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:58:39,210 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:58:39,212 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:58:50,156 INFO server_logger Подключился клиент: ('127.0.0.1', 50132)
+2022-06-10 18:58:50,271 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876730, 'user': {'account_name': 'test1'}}
+2022-06-10 18:58:50,272 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876730}
+2022-06-10 18:58:53,258 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654876733, 'account_name': 'test1'}
+2022-06-10 18:59:08,412 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:59:08,414 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:59:08,415 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 18:59:08,415 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 18:59:08,416 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 18:59:08,417 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 18:59:08,417 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 18:59:08,420 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 18:59:16,006 INFO server_logger Подключился клиент: ('127.0.0.1', 50140)
+2022-06-10 18:59:16,118 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876756, 'user': {'account_name': 'test1'}}
+2022-06-10 18:59:16,120 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876756}
+2022-06-10 18:59:19,981 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654876759, 'account_name': 'test1'}
+2022-06-10 19:01:23,713 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:01:23,714 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:01:23,714 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:01:23,715 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:01:23,716 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:01:23,716 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:01:23,717 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:01:23,718 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:01:31,616 INFO server_logger Подключился клиент: ('127.0.0.1', 50163)
+2022-06-10 19:01:31,719 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876891, 'user': {'account_name': 'test1'}}
+2022-06-10 19:01:31,721 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876891}
+2022-06-10 19:01:35,251 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654876895, 'account_name': 'test1'}
+2022-06-10 19:01:35,253 INFO server_logger Клиент ('127.0.0.1', 50163) вышёл по команде QUIT
+2022-06-10 19:02:08,460 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:02:08,462 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:02:08,462 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:02:08,463 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:02:08,464 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:02:08,464 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:02:08,465 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:02:08,468 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:02:15,009 INFO server_logger Подключился клиент: ('127.0.0.1', 50172)
+2022-06-10 19:02:15,112 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876935, 'user': {'account_name': 'test1'}}
+2022-06-10 19:02:15,114 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876935}
+2022-06-10 19:02:18,435 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654876938, 'account_name': 'test1'}
+2022-06-10 19:02:18,436 INFO server_logger Клиент ('127.0.0.1', 50172) вышёл по команде QUIT
+2022-06-10 19:02:30,890 INFO server_logger Подключился клиент: ('127.0.0.1', 50176)
+2022-06-10 19:02:30,998 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876950, 'user': {'account_name': 'test1'}}
+2022-06-10 19:02:31,001 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876951}
+2022-06-10 19:02:43,581 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654876963, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:02:43,583 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654876963, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:02:43,586 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654876963, 'from': 'test1', 'to': 'test2', 'message': 'asd'}, {'test1': <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50176)>}, [<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50176)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:02:43,588 ERROR server_logger Пользователь test2 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 19:03:06,132 INFO server_logger Подключился клиент: ('127.0.0.1', 50197)
+2022-06-10 19:03:06,235 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654876986, 'user': {'account_name': 'test2'}}
+2022-06-10 19:03:06,237 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654876986}
+2022-06-10 19:03:19,050 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'}
+2022-06-10 19:03:19,051 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'}
+2022-06-10 19:03:19,053 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'}, {'test1': <socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50176)>, 'test2': <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50197)>}, [<socket.socket fd=424, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50176)>, <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50197)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:03:19,053 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'} от пользователя test1 пользователю test2
+2022-06-10 19:06:24,150 INFO server_logger Клиент ('127.0.0.1', 50176) отключился
+2022-06-10 19:06:26,372 INFO server_logger Клиент ('127.0.0.1', 50197) отключился
+2022-06-10 19:06:39,608 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:06:39,609 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:06:39,611 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:06:39,613 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:06:39,615 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:06:39,616 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:06:39,616 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:06:39,618 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:06:58,069 INFO server_logger Подключился клиент: ('127.0.0.1', 50218)
+2022-06-10 19:06:58,071 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877209, 'user': {'account_name': 'test1'}}
+2022-06-10 19:06:58,073 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877218}
+2022-06-10 19:07:03,563 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:07:03,564 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:07:03,565 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:07:03,565 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:07:03,566 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:07:03,567 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:07:03,567 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:07:03,569 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:07:09,714 INFO server_logger Подключился клиент: ('127.0.0.1', 50221)
+2022-06-10 19:07:09,820 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877229, 'user': {'account_name': 'test1'}}
+2022-06-10 19:07:09,822 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877229}
+2022-06-10 19:07:18,066 INFO server_logger Подключился клиент: ('127.0.0.1', 50222)
+2022-06-10 19:07:18,174 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877238, 'user': {'account_name': 'test2'}}
+2022-06-10 19:07:18,175 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877238}
+2022-06-10 19:08:31,005 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654877310, 'account_name': 'test2'}
+2022-06-10 19:08:31,006 INFO server_logger Клиент ('127.0.0.1', 50222) вышёл по команде QUIT
+2022-06-10 19:08:36,201 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654877316, 'account_name': 'test1'}
+2022-06-10 19:08:36,202 INFO server_logger Клиент ('127.0.0.1', 50221) вышёл по команде QUIT
+2022-06-10 19:08:41,303 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:08:41,307 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:08:41,308 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:08:41,309 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:08:41,310 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:08:41,311 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:08:41,311 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:08:41,312 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:08:45,759 INFO server_logger Подключился клиент: ('127.0.0.1', 50234)
+2022-06-10 19:08:45,873 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877325, 'user': {'account_name': 'test1'}}
+2022-06-10 19:08:45,875 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877325}
+2022-06-10 19:08:52,168 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654877332, 'account_name': 'test1'}
+2022-06-10 19:08:52,169 INFO server_logger Клиент ('127.0.0.1', 50234) вышёл по команде QUIT
+2022-06-10 19:08:59,439 INFO server_logger Подключился клиент: ('127.0.0.1', 50238)
+2022-06-10 19:08:59,540 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877339, 'user': {'account_name': 'test1'}}
+2022-06-10 19:08:59,541 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877339}
+2022-06-10 19:09:05,092 INFO server_logger Подключился клиент: ('127.0.0.1', 50240)
+2022-06-10 19:09:05,198 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877345, 'user': {'account_name': 'test2'}}
+2022-06-10 19:09:05,202 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877345}
+2022-06-10 19:09:23,285 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'}
+2022-06-10 19:09:23,285 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'}
+2022-06-10 19:09:23,286 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'}, {'test1': <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, 'test2': <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>}, [<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:09:23,287 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'} от пользователя test1 пользователю test2
+2022-06-10 19:09:49,954 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'}
+2022-06-10 19:09:49,956 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'}
+2022-06-10 19:09:49,959 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'}, {'test1': <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, 'test2': <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>}, [<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:09:49,960 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'} от пользователя test1 пользователю test2
+2022-06-10 19:10:10,480 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'}
+2022-06-10 19:10:10,482 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'}
+2022-06-10 19:10:10,485 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'}, {'test1': <socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, 'test2': <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>}, [<socket.socket fd=436, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50238)>, <socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50240)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:10:10,486 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'} от пользователя test1 пользователю test2
+2022-06-10 19:10:30,143 INFO server_logger Клиент ('127.0.0.1', 50240) отключился
+2022-06-10 19:10:39,545 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654877439, 'account_name': 'test1'}
+2022-06-10 19:10:39,546 INFO server_logger Клиент ('127.0.0.1', 50238) вышёл по команде QUIT
+2022-06-10 19:11:32,450 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:32,452 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:32,453 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:11:32,453 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:11:32,454 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:32,455 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:11:32,455 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:11:40,281 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:40,282 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:40,283 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:11:40,283 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:11:40,286 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:40,288 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:11:40,290 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:11:40,291 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:11:45,938 INFO server_logger Подключился клиент: ('127.0.0.1', 50275)
+2022-06-10 19:11:46,053 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654877505, 'user': {'account_name': 'test1'}}
+2022-06-10 19:11:46,055 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654877506}
+2022-06-10 19:11:56,418 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:11:56,419 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:11:56,420 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'}, {'test1': <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50275)>}, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50275)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:11:56,420 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'} от пользователя test1 пользователю test1
+2022-06-10 19:12:13,005 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654877532, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:12:13,006 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654877532, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:12:13,007 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654877532, 'from': 'test1', 'to': 'test2', 'message': 'asd'}, {'test1': <socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50275)>}, [<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 50275)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:12:13,008 ERROR server_logger Пользователь test2 не зарегистрирован на сервере. Отправка сообщения невозможна.
+2022-06-10 19:12:17,865 INFO server_logger Клиент ('127.0.0.1', 50275) отключился
+2022-06-10 19:24:46,784 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:24:46,784 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:24:46,784 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:24:46,784 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:24:46,784 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:24:46,784 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:24:46,784 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:24:46,784 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:24:54,403 INFO server_logger Подключился клиент: ('127.0.0.1', 52188)
+2022-06-10 19:24:54,403 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654878294, 'user': {'account_name': 'test1'}}
+2022-06-10 19:24:54,403 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654878294}
+2022-06-10 19:25:04,997 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:25:04,997 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:25:04,997 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'}, {'test1': <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52188)>}, [<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52188)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:25:04,997 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'} от пользователя test1 пользователю test1
+2022-06-10 19:25:43,096 INFO server_logger Подключился клиент: ('127.0.0.1', 52196)
+2022-06-10 19:25:43,196 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654878343, 'user': {'account_name': 'test2'}}
+2022-06-10 19:25:43,196 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654878343}
+2022-06-10 19:25:51,702 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'}
+2022-06-10 19:25:51,702 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'}
+2022-06-10 19:25:51,702 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'}, {'test1': <socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52188)>, 'test2': <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52196)>}, [<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52188)>, <socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52196)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:25:51,702 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'} от пользователя test2 пользователю test1
+2022-06-10 19:28:04,997 INFO server_logger Клиент ('127.0.0.1', 52196) отключился
+2022-06-10 19:28:05,867 INFO server_logger Клиент ('127.0.0.1', 52188) отключился
+2022-06-10 19:28:10,346 DEBUG server_logger Вызвана функция create_server_socket с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:28:10,350 DEBUG server_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:28:10,350 DEBUG server_logger Назначен адрес для прослушивания по умолчанию: 127.0.0.1
+2022-06-10 19:28:10,350 INFO server_logger Адрес для прослушивания: 127.0.0.1
+2022-06-10 19:28:10,350 DEBUG server_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:28:10,350 DEBUG server_logger Назначен порт для прослушивания по умолчанию: 7777
+2022-06-10 19:28:10,350 INFO server_logger Порт для прослушивания: 7777
+2022-06-10 19:28:10,354 INFO server_logger Сервер запущен. Адрес: 127.0.0.1, порт: 7777
+2022-06-10 19:28:47,616 INFO server_logger Подключился клиент: ('127.0.0.1', 52237)
+2022-06-10 19:28:47,717 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654878527, 'user': {'account_name': 'test1'}}
+2022-06-10 19:28:47,717 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654878527}
+2022-06-10 19:28:55,499 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:28:55,499 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:28:55,499 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'}, {'test1': <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>}, [<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:28:55,499 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'} от пользователя test1 пользователю test1
+2022-06-10 19:29:19,351 INFO server_logger Подключился клиент: ('127.0.0.1', 52244)
+2022-06-10 19:29:19,452 DEBUG server_logger Разбор сообщения от клиента: {'action': 'presence', 'time': 1654878559, 'user': {'account_name': 'test2'}}
+2022-06-10 19:29:19,452 INFO server_logger Сформировано сообщение клиенту: {'response': 200, 'alert': 'OK', 'time': 1654878559}
+2022-06-10 19:29:28,889 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'}
+2022-06-10 19:29:28,889 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'}
+2022-06-10 19:29:28,889 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'}, {'test1': <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, 'test2': <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>}, [<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:29:28,889 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'} от пользователя test2 пользователю test1
+2022-06-10 19:29:45,450 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'}
+2022-06-10 19:29:45,450 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'}
+2022-06-10 19:29:45,450 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'}, {'test1': <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, 'test2': <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>}, [<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:29:45,450 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'} от пользователя test2 пользователю test1
+2022-06-10 19:30:00,114 DEBUG server_logger Разбор сообщения от клиента: {'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'}
+2022-06-10 19:30:00,114 INFO server_logger Получили сообщение для другого клиента: {'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'}
+2022-06-10 19:30:00,114 DEBUG server_logger Вызвана функция process_p2p_msg с параметрами: args=({'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'}, {'test1': <socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, 'test2': <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>}, [<socket.socket fd=292, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52237)>, <socket.socket fd=312, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 52244)>]), kwargs={}, из модуля server.py, из функции main()
+2022-06-10 19:30:00,114 INFO server_logger Отправлено сообщение {'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'} от пользователя test1 пользователю test2
+2022-06-10 19:30:10,170 INFO server_logger Клиент ('127.0.0.1', 52237) отключился
+2022-06-10 19:30:14,066 DEBUG server_logger Разбор сообщения от клиента: {'action': 'quit', 'time': 1654878614, 'account_name': 'test2'}
+2022-06-10 19:30:14,066 INFO server_logger Клиент ('127.0.0.1', 52244) вышёл по команде QUIT
