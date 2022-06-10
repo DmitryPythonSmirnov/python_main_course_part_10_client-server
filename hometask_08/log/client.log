@@ -1,0 +1,977 @@
+2022-06-07 18:14:19,062 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:14:19,062 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:14:19,062 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:14:19,063 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:14:19,063 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:14:19,063 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:14:19,064 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:14:22,196 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:14:22,196 INFO client_logger Режим работы клиента: send
+2022-06-07 18:14:22,199 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:14:22,201 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:14:22,202 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:14:22,202 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654614862, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:14:22,203 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654614862, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:14:27,230 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654614867}
+2022-06-07 18:14:27,237 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55019), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:14:37,419 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654614877, 'from': 'Guest', 'message': 'zxc'}
+2022-06-07 18:14:37,420 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55019), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:14:42,278 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54990), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:14:45,596 INFO client_logger Завершение работы клиента ('127.0.0.1', 55019) по команде пользователя
+2022-06-07 18:15:18,544 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:18,544 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:15:18,545 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:15:18,545 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:18,545 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:15:18,545 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:15:18,546 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:23,961 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:15:23,961 INFO client_logger Режим работы клиента: send
+2022-06-07 18:15:23,963 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:15:23,967 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:15:23,968 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:15:23,968 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654614923, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:23,969 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654614923, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:28,985 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654614928}
+2022-06-07 18:15:28,989 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55026), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:15:29,389 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:29,389 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:15:29,390 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:15:29,391 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:29,391 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:15:29,391 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:15:29,392 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:33,462 DEBUG client_logger Назначен режим работы клиента: listen
+2022-06-07 18:15:33,462 INFO client_logger Режим работы клиента: listen
+2022-06-07 18:15:33,463 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента listen
+2022-06-07 18:15:33,464 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:15:33,465 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:15:33,465 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654614933, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:33,466 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654614933, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:15:38,489 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654614938}
+2022-06-07 18:15:38,491 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55028), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:51,110 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654614951, 'from': 'Guest', 'message': 'AAA'}
+2022-06-07 18:15:51,111 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55026), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:15:53,545 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54990), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:15:53,545 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55028), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:01,525 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654614961, 'from': 'Guest', 'message': 'BBB'}
+2022-06-07 18:16:01,526 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=484, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55026), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:16:03,569 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54990), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:07,874 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:07,875 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:16:07,875 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:16:07,876 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:07,877 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:16:07,877 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:16:07,878 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:13,127 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:16:13,127 INFO client_logger Режим работы клиента: send
+2022-06-07 18:16:13,128 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:16:13,130 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:16:13,131 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:16:13,132 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654614973, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:16:13,132 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654614973, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:16:18,146 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654614978}
+2022-06-07 18:16:18,148 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55033), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:16:21,080 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654614981, 'from': 'Guest', 'message': 'DDD'}
+2022-06-07 18:16:21,082 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55033), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:16:23,169 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=488, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 54990), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:23,170 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55028), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:16:28,568 INFO client_logger Завершение работы клиента ('127.0.0.1', 55033) по команде пользователя
+2022-06-07 18:16:32,004 INFO client_logger Завершение работы клиента ('127.0.0.1', 55026) по команде пользователя
+2022-06-07 18:18:58,892 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:18:58,892 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:18:58,892 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:18:58,893 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:18:58,893 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:18:58,893 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:18:58,894 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:19:01,918 DEBUG client_logger Назначен режим работы клиента: listen
+2022-06-07 18:19:01,918 INFO client_logger Режим работы клиента: listen
+2022-06-07 18:19:01,919 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента listen
+2022-06-07 18:19:01,921 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:19:01,922 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:19:01,922 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615141, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:01,923 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615141, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:10,692 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:19:10,692 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:19:10,693 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:19:10,694 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:19:10,694 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:19:10,694 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:19:10,696 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:19:13,721 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:19:13,721 INFO client_logger Режим работы клиента: send
+2022-06-07 18:19:13,723 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:19:13,724 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:19:13,725 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:19:13,725 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615153, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:13,727 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615153, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:19:18,753 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615158}
+2022-06-07 18:19:18,755 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55082), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:19:21,925 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615161, 'from': 'Guest', 'message': 'WWW'}
+2022-06-07 18:19:21,926 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55082), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:19:35,780 INFO client_logger Завершение работы клиента ('127.0.0.1', 55082) по команде пользователя
+2022-06-07 18:22:44,991 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:44,991 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:22:44,992 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:22:44,993 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:44,993 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:22:44,993 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:22:44,994 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:47,531 DEBUG client_logger Назначен режим работы клиента: listen
+2022-06-07 18:22:47,531 INFO client_logger Режим работы клиента: listen
+2022-06-07 18:22:47,531 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента listen
+2022-06-07 18:22:47,533 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:22:47,534 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:22:47,534 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615367, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:47,535 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615367, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:52,545 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615372}
+2022-06-07 18:22:52,545 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55118), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:52,737 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:52,737 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:22:52,737 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:22:52,738 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:52,738 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:22:52,738 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:22:52,739 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:54,642 DEBUG client_logger Назначен режим работы клиента: listen
+2022-06-07 18:22:54,642 INFO client_logger Режим работы клиента: listen
+2022-06-07 18:22:54,643 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента listen
+2022-06-07 18:22:54,645 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:22:54,646 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:22:54,646 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615374, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:54,647 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615374, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:58,690 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:58,690 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:22:58,690 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:22:58,692 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:58,692 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:22:58,692 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:22:58,693 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:59,650 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615379}
+2022-06-07 18:22:59,652 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55120), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:22:59,800 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:22:59,800 INFO client_logger Режим работы клиента: send
+2022-06-07 18:22:59,800 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:22:59,802 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:22:59,803 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:22:59,803 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615379, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:22:59,804 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615379, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:23:04,808 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615384}
+2022-06-07 18:23:04,810 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55121), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:23:13,386 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615393, 'from': 'Guest', 'message': 'fff'}
+2022-06-07 18:23:13,387 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55121), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:23:14,840 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55118), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:14,840 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55120), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:18,172 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615398, 'from': 'Guest', 'message': 'ghj'}
+2022-06-07 18:23:18,173 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=376, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55121), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:23:19,849 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=468, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55118), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:19,850 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55120), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:21,528 INFO client_logger Завершение работы клиента ('127.0.0.1', 55121) по команде пользователя
+2022-06-07 18:23:57,680 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:57,680 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:23:57,680 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:23:57,681 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:23:57,681 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:23:57,681 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:23:57,682 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:01,407 DEBUG client_logger Назначен режим работы клиента: send
+2022-06-07 18:24:01,408 INFO client_logger Режим работы клиента: send
+2022-06-07 18:24:01,408 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента send
+2022-06-07 18:24:01,410 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:24:01,411 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:01,411 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615441, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:01,412 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615441, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:01,522 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615441}
+2022-06-07 18:24:01,524 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:05,129 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:05,129 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-07 18:24:05,129 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-07 18:24:05,130 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:05,130 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-07 18:24:05,130 INFO client_logger Порт для подключения: 7777
+2022-06-07 18:24:05,131 DEBUG client_logger Вызвана функция get_mode с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:06,682 DEBUG client_logger Назначен режим работы клиента: listen
+2022-06-07 18:24:06,683 INFO client_logger Режим работы клиента: listen
+2022-06-07 18:24:06,683 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим клиента listen
+2022-06-07 18:24:06,686 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-07 18:24:06,687 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=(), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:06,687 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654615446, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:06,688 INFO client_logger Отправлено сообщение {'action': 'presence', 'time': 1654615446, 'user': {'account_name': 'Guest'}}
+2022-06-07 18:24:06,794 INFO client_logger Получено сообщение: {'response': 200, 'alert': 'OK', 'time': 1654615446}
+2022-06-07 18:24:06,796 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:20,634 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615460, 'from': 'Guest', 'message': 'as'}
+2022-06-07 18:24:20,635 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:20,710 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:21,989 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615461, 'from': 'Guest', 'message': 'sd'}
+2022-06-07 18:24:21,990 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:22,013 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:22,859 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615462, 'from': 'Guest', 'message': 'df'}
+2022-06-07 18:24:22,860 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:22,880 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:24,033 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615464, 'from': 'Guest', 'message': 'fg'}
+2022-06-07 18:24:24,034 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:24,073 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:25,526 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654615465, 'from': 'Guest', 'message': 'hhj'}
+2022-06-07 18:24:25,527 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=364, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55130), raddr=('127.0.0.1', 7777)>,), kwargs={'account_name': 'Guest'}, из модуля client.py, из функции main()
+2022-06-07 18:24:25,591 DEBUG client_logger Вызвана функция get_msg_from_server с параметрами: args=(<socket.socket fd=496, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 55131), raddr=('127.0.0.1', 7777)>,), kwargs={}, из модуля client.py, из функции main()
+2022-06-07 18:24:44,794 INFO client_logger Завершение работы клиента ('127.0.0.1', 55130) по команде пользователя
+2022-06-10 17:39:32,386 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:39:32,388 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:39:32,389 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:39:32,389 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:39:32,389 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:39:32,390 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:39:32,391 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:39:38,957 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:39:38,959 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:39:38,961 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65367), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:38,961 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65367), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:38,962 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:43,790 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:46,931 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:46,931 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654871986, 'account_name': 'test1'}
+2022-06-10 17:39:46,931 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 17:39:52,155 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:39:52,155 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:39:52,155 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:39:52,156 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:39:52,156 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:39:52,156 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:39:52,156 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:39:56,529 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:39:56,531 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:39:56,532 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65375), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:56,533 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65375), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:39:56,534 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:00,561 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:40:00,562 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:40:00,564 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:40:00,566 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:40:00,566 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:40:00,566 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:40:00,567 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:40:05,035 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:40:05,037 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:40:05,039 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65377), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:05,039 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65377), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:05,040 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:17,701 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=360, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65377), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:28,619 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654872028, 'from': 'test2', 'to': 'test3', 'message': 'as'}
+2022-06-10 17:40:28,619 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654872028, 'from': 'test2', 'to': 'test3', 'message': 'as'}
+2022-06-10 17:40:58,755 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:40:58,756 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654872058, 'account_name': 'test1'}
+2022-06-10 17:40:58,756 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 17:45:31,418 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:45:31,418 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:45:31,419 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:45:31,419 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 17:45:31,419 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:45:31,419 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:45:31,419 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:45:36,974 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:45:36,976 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:45:36,978 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65425), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:45:36,980 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65425), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:45:36,981 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:45:42,516 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65425), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 17:45:48,341 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654872348, 'from': 'test1', 'to': 'test1', 'message': 'qwe'}
+2022-06-10 17:45:48,341 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654872348, 'from': 'test1', 'to': 'test1', 'message': 'qwe'}
+2022-06-10 17:46:30,065 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 17:47:02,370 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:47:02,371 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:47:02,373 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:47:02,375 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:47:02,375 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:47:02,375 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:47:02,377 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:47:07,301 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:47:07,309 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:47:07,317 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65438), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:47:07,318 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65438), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:47:07,319 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:50:46,543 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65438), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:51:40,325 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654872687, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 17:51:46,612 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654872687, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 17:52:25,285 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=864, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65438), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:53:05,981 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654872772, 'from': 'test1', 'to': 'test3', 'message': 'AAA'}
+2022-06-10 17:53:30,190 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654872772, 'from': 'test1', 'to': 'test3', 'message': 'AAA'}
+2022-06-10 17:56:28,774 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:56:28,775 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:56:28,776 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:56:28,778 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:56:28,779 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:56:28,779 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:56:28,780 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:56:34,202 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:56:34,212 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:56:34,221 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65522), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:56:34,224 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65522), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:56:34,226 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:56:42,697 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=840, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 65522), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:57:11,669 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873026, 'from': 'test1', 'to': 'test2', 'message': 'SSS'}
+2022-06-10 17:59:39,364 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:59:39,365 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 17:59:39,366 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 17:59:39,368 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля runpy.py, из функции None,
+2022-06-10 17:59:39,368 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 17:59:39,369 INFO client_logger Порт для подключения: 7777
+2022-06-10 17:59:39,369 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 17:59:52,852 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 17:59:52,865 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 17:59:52,873 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=784, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49177), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:59:52,874 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=784, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49177), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:59:52,878 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 17:59:58,672 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=784, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49177), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля pydev_monkey.py, из функции **self.kwargs)
+2022-06-10 18:01:27,600 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873281, 'from': 'test1', 'to': 'test2', 'message': 'ZZZ'}
+2022-06-10 18:02:17,959 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:02:17,959 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:02:17,959 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:02:17,960 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:02:17,960 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:02:17,960 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:02:17,960 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:02:43,817 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:02:43,819 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:02:43,822 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49206), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:02:43,822 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49206), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:02:43,823 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:02:56,547 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=408, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49206), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:03:06,738 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873386, 'from': 'test1', 'to': 'test2', 'message': 'qwe'}
+2022-06-10 18:03:06,738 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654873386, 'from': 'test1', 'to': 'test2', 'message': 'qwe'}
+2022-06-10 18:03:16,388 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:05:36,173 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:05:36,173 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:05:36,173 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:05:36,174 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:05:36,174 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:05:36,174 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:05:36,174 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:05:41,196 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:05:41,198 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:05:41,201 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49231), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:05:41,201 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49231), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:05:41,202 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:05:46,699 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49231), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:05:52,333 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873552, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:05:52,333 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654873552, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:07:45,398 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:07:45,399 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:07:45,399 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:07:45,399 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:07:45,399 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:07:45,399 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:07:45,400 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:07:49,411 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:07:49,414 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:07:49,417 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49244), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:07:49,417 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49244), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:07:49,418 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:07:53,791 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49244), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:07:58,952 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873678, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:07:58,952 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654873678, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:07:59,000 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 18:10:45,111 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:10:45,111 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:10:45,111 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:10:45,111 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:10:45,111 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:10:45,112 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:10:45,112 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:10:50,112 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:10:50,115 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:10:50,117 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:10:50,118 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:10:50,118 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:10:53,818 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:11:00,422 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654873860, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:11:00,422 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654873860, 'from': 'test1', 'to': 'test2', 'message': 'as'}
+2022-06-10 18:11:37,541 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:17:06,265 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:17:06,265 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:17:06,265 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:17:06,266 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:17:06,266 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:17:06,266 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:17:06,266 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:17:12,849 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:17:12,852 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:17:12,854 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49338), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:17:12,855 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49338), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:17:12,857 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:17:16,620 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49338), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:17:21,981 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654874241, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:17:21,981 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654874241, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:18:13,117 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:18:38,179 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:18:38,179 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:18:38,179 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:18:38,180 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:18:38,180 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:18:38,180 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:18:38,180 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:18:41,875 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:18:41,877 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:18:41,879 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49355), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:18:41,880 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49355), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:18:41,880 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:18:45,353 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49355), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:18:53,489 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654874333, 'from': 'test1', 'to': 'test2', 'message': 'qqq'}
+2022-06-10 18:18:53,490 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654874333, 'from': 'test1', 'to': 'test2', 'message': 'qqq'}
+2022-06-10 18:19:06,262 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:19:06,262 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:19:06,262 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:19:06,263 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:19:06,263 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:19:06,263 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:19:06,263 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:19:08,596 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:19:08,597 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:19:08,599 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49360), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:19:08,599 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49360), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:19:08,601 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:19:17,302 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=432, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49360), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:19:25,469 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654874365, 'from': 'test2', 'to': 'test1', 'message': 'Hi'}
+2022-06-10 18:19:25,469 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654874365, 'from': 'test2', 'to': 'test1', 'message': 'Hi'}
+2022-06-10 18:19:41,858 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=304, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49355), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:19:49,434 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654874389, 'from': 'test1', 'to': 'test2', 'message': 'HiHi'}
+2022-06-10 18:19:49,434 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654874389, 'from': 'test1', 'to': 'test2', 'message': 'HiHi'}
+2022-06-10 18:20:43,872 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:20:43,872 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:20:43,872 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:20:43,872 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:20:43,873 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:20:43,873 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:20:43,873 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:20:50,763 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:20:50,765 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:20:50,768 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:20:50,769 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:20:50,770 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:21:02,683 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=388, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49378), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:21:10,561 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654874470, 'from': 'test1', 'to': 'test2', 'message': 'aaa'}
+2022-06-10 18:21:10,561 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654874470, 'from': 'test1', 'to': 'test2', 'message': 'aaa'}
+2022-06-10 18:23:26,794 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:26:18,746 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:26:18,747 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:26:18,747 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:26:18,747 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:26:18,747 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:26:18,748 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:26:18,748 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:26:22,886 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:26:22,887 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:26:22,887 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654874782, 'user': {'account_name': 'test1'}}
+2022-06-10 18:26:22,890 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:26:22,892 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49431), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:26:22,893 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49431), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:26:22,894 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:26:26,802 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=324, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49431), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:27:34,418 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:27:34,419 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:27:34,419 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:27:34,422 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:27:34,423 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:27:34,423 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:27:34,424 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:27:39,360 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:27:39,361 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:27:39,362 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654874859, 'user': {'account_name': 'test1'}}
+2022-06-10 18:27:39,364 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:27:39,368 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49443), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:27:39,369 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49443), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:27:39,370 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:30:21,416 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:30:38,907 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:30:38,907 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:30:38,907 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:30:38,907 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:30:38,907 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:30:38,908 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:30:38,908 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:30:44,019 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:30:44,020 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:30:44,020 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875044, 'user': {'account_name': 'test1'}}
+2022-06-10 18:30:44,023 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:30:44,026 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49844), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:30:44,027 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49844), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:30:44,028 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:31:06,635 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875058}
+2022-06-10 18:31:22,052 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:31:34,369 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:31:34,369 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:31:34,370 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:31:34,370 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:31:34,371 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:31:34,371 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:31:34,371 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:31:39,713 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:31:39,713 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:31:39,713 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875099, 'user': {'account_name': 'test1'}}
+2022-06-10 18:31:39,715 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:31:39,718 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49852), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:31:39,718 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49852), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:31:39,719 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:31:39,824 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875099}
+2022-06-10 18:31:46,969 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=392, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49852), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:31:53,592 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654875113, 'from': 'test1', 'to': 'test1', 'message': 'aaa'}
+2022-06-10 18:31:53,593 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654875113, 'from': 'test1', 'to': 'test1', 'message': 'aaa'}
+2022-06-10 18:32:23,514 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:23,516 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:32:23,517 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:32:23,518 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:23,518 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:32:23,518 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:32:23,518 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:32:28,056 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:32:28,057 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:28,057 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875148, 'user': {'account_name': 'test1'}}
+2022-06-10 18:32:28,059 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:32:28,061 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49853), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:28,061 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49853), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:28,062 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:28,167 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875148}
+2022-06-10 18:32:34,638 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:34,638 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:32:34,639 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:32:34,639 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:34,639 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:32:34,639 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:32:34,639 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:32:38,575 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:32:38,576 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:32:38,576 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875158, 'user': {'account_name': 'test2'}}
+2022-06-10 18:32:38,578 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:32:38,581 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49855), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:38,581 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=444, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49855), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:38,582 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:38,685 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875158}
+2022-06-10 18:32:44,104 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=464, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49853), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:32:49,934 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654875169, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:32:49,934 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654875169, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 18:33:57,581 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:34:05,756 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:34:05,756 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:34:05,756 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:34:05,757 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:34:05,757 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:34:05,758 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:34:05,758 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:34:09,276 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:34:09,277 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:34:09,277 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875249, 'user': {'account_name': 'test1'}}
+2022-06-10 18:34:09,278 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:34:09,281 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49870), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:34:09,281 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49870), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:34:09,282 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:34:09,383 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875249}
+2022-06-10 18:34:12,735 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=404, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49870), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:34:17,796 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654875257, 'from': 'test1', 'to': 'test1', 'message': 'as'}
+2022-06-10 18:34:17,797 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654875257, 'from': 'test1', 'to': 'test1', 'message': 'as'}
+2022-06-10 18:36:13,956 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:13,957 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:36:13,957 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:36:13,957 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:13,957 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:36:13,957 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:36:13,958 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:36:18,490 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:36:18,490 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:18,492 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875378, 'user': {'account_name': 'test1'}}
+2022-06-10 18:36:18,492 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:36:18,495 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49884), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:18,495 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49884), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:18,497 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:18,607 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875378}
+2022-06-10 18:36:22,892 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49884), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:45,504 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:45,504 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:36:45,504 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:36:45,505 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:45,505 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:36:45,505 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:36:45,505 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:36:49,062 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:36:49,063 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:36:49,063 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654875409, 'user': {'account_name': 'test2'}}
+2022-06-10 18:36:49,065 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:36:49,068 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49907), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:49,069 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49907), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:49,069 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:36:49,179 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654875409}
+2022-06-10 18:37:04,954 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 18:37:04,955 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654875424, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 18:37:04,972 INFO client_logger Получено сообщение от пользователя test1: 
+asd
+2022-06-10 18:37:18,144 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=440, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 49884), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:37:32,326 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'}
+2022-06-10 18:37:32,327 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654875452, 'from': 'test1', 'to': 'test2', 'message': 'Привет'}
+2022-06-10 18:37:32,379 INFO client_logger Получено сообщение от пользователя test1: 
+Привет
+2022-06-10 18:57:07,829 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:57:07,830 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 18:57:14,794 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:57:14,794 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:57:14,794 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:57:14,795 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:57:14,795 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:57:14,796 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:57:14,796 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:57:19,472 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:57:19,472 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:57:19,472 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876639, 'user': {'account_name': 'test1'}}
+2022-06-10 18:57:19,474 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:57:19,477 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50118), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:57:19,477 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50118), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:57:19,478 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:57:19,589 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876639}
+2022-06-10 18:57:28,942 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:57:28,943 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654876648, 'account_name': 'test1'}
+2022-06-10 18:57:28,943 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 18:57:28,955 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 18:58:42,893 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:58:42,893 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:58:42,893 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:58:42,893 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:58:42,893 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:58:42,893 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:58:42,893 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:58:50,156 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:58:50,156 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:58:50,156 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876730, 'user': {'account_name': 'test1'}}
+2022-06-10 18:58:50,158 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:58:50,162 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50132), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:58:50,162 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=396, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50132), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:58:50,163 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:58:50,273 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876730}
+2022-06-10 18:58:53,198 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:58:53,198 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654876733, 'account_name': 'test1'}
+2022-06-10 18:58:53,198 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 18:58:53,259 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 18:59:12,323 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:59:12,324 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 18:59:12,324 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 18:59:12,324 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:59:12,325 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 18:59:12,325 INFO client_logger Порт для подключения: 7777
+2022-06-10 18:59:12,325 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 18:59:16,005 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 18:59:16,007 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 18:59:16,007 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876756, 'user': {'account_name': 'test1'}}
+2022-06-10 18:59:16,009 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 18:59:16,012 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50140), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:59:16,013 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50140), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:59:16,014 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:59:16,122 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876756}
+2022-06-10 18:59:19,892 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 18:59:19,893 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654876759, 'account_name': 'test1'}
+2022-06-10 18:59:19,893 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 18:59:19,983 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:01:28,103 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:01:28,103 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:01:28,103 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:01:28,104 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:01:28,105 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:01:28,106 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:01:28,107 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:01:31,615 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:01:31,616 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:01:31,617 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876891, 'user': {'account_name': 'test1'}}
+2022-06-10 19:01:31,619 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:01:31,622 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50163), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:01:31,622 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=448, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50163), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:01:31,623 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:01:31,723 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876891}
+2022-06-10 19:01:35,205 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:01:35,205 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654876895, 'account_name': 'test1'}
+2022-06-10 19:01:35,205 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:01:35,254 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:02:11,242 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:11,243 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:02:11,243 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:02:11,243 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:11,243 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:02:11,243 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:02:11,244 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:02:15,009 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:02:15,010 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:15,010 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876935, 'user': {'account_name': 'test1'}}
+2022-06-10 19:02:15,012 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:02:15,015 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50172), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:15,016 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50172), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:15,017 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:15,115 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876935}
+2022-06-10 19:02:18,331 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:18,332 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654876938, 'account_name': 'test1'}
+2022-06-10 19:02:18,332 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:02:18,438 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:02:28,783 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:28,783 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:02:28,783 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:02:28,784 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:28,784 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:02:28,784 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:02:28,784 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:02:30,890 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:02:30,891 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:30,892 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876950, 'user': {'account_name': 'test1'}}
+2022-06-10 19:02:30,894 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:02:30,897 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50176), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:30,897 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50176), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:30,898 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:31,003 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876951}
+2022-06-10 19:02:37,511 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50176), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:02:43,477 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654876963, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:02:43,478 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654876963, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:02:51,001 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:51,001 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:02:51,002 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:02:51,003 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:02:51,003 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:02:51,003 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:02:51,005 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:03:00,320 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=456, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50176), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:03:06,132 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:03:06,134 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:03:06,134 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654876986, 'user': {'account_name': 'test2'}}
+2022-06-10 19:03:06,136 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:03:06,138 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50197), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:03:06,140 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=452, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50197), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:03:06,141 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:03:06,238 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654876986}
+2022-06-10 19:03:19,028 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'}
+2022-06-10 19:03:19,028 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654876999, 'from': 'test1', 'to': 'test2', 'message': 'Hello!'}
+2022-06-10 19:03:19,054 INFO client_logger Получено сообщение от пользователя test1: Hello!
+2022-06-10 19:06:46,443 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:06:46,445 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:06:46,445 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:06:46,447 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:06:46,447 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:06:46,447 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:06:46,447 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:06:49,663 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:06:49,663 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:06:49,663 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877209, 'user': {'account_name': 'test1'}}
+2022-06-10 19:06:49,665 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:06:49,667 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50218), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:06:49,668 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=352, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50218), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:06:49,668 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:06:58,074 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877218}
+2022-06-10 19:07:00,118 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 19:07:07,365 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:07,365 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:07:07,365 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:07:07,366 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:07,366 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:07:07,366 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:07:07,366 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:07:09,714 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:07:09,715 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:09,715 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877229, 'user': {'account_name': 'test1'}}
+2022-06-10 19:07:09,717 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:07:09,720 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50221), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:09,720 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50221), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:09,721 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:09,823 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877229}
+2022-06-10 19:07:14,200 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:14,201 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:07:14,201 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:07:14,202 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:14,202 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:07:14,202 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:07:14,202 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:07:18,066 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:07:18,067 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:07:18,067 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877238, 'user': {'account_name': 'test2'}}
+2022-06-10 19:07:18,069 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:07:18,071 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50222), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:18,071 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50222), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:18,072 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:07:18,176 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877238}
+2022-06-10 19:08:30,955 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test2',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:30,955 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654877310, 'account_name': 'test2'}
+2022-06-10 19:08:30,955 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:08:31,008 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:08:36,102 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:36,102 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654877316, 'account_name': 'test1'}
+2022-06-10 19:08:36,103 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:08:36,204 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:08:43,827 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:43,828 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:08:43,828 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:08:43,828 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:43,828 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:08:43,828 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:08:43,829 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:08:45,759 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:08:45,760 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:45,760 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877325, 'user': {'account_name': 'test1'}}
+2022-06-10 19:08:45,762 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:08:45,764 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50234), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:45,765 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=480, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50234), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:45,766 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:45,876 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877325}
+2022-06-10 19:08:52,107 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:52,107 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654877332, 'account_name': 'test1'}
+2022-06-10 19:08:52,108 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:08:52,170 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:08:55,978 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:55,978 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:08:55,978 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:08:55,979 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:55,979 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:08:55,979 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:08:55,979 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:08:59,439 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:08:59,439 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:08:59,439 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877339, 'user': {'account_name': 'test1'}}
+2022-06-10 19:08:59,441 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:08:59,444 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50238), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:59,444 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50238), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:59,445 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:08:59,543 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877339}
+2022-06-10 19:09:02,328 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:09:02,328 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:09:02,328 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:09:02,329 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:09:02,329 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:09:02,329 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:09:02,329 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:09:05,092 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:09:05,093 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:09:05,093 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877345, 'user': {'account_name': 'test2'}}
+2022-06-10 19:09:05,095 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:09:05,098 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50240), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:09:05,098 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50240), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:09:05,099 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:09:05,203 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877345}
+2022-06-10 19:09:18,356 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50238), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:09:23,225 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'}
+2022-06-10 19:09:23,226 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654877363, 'from': 'test1', 'to': 'test2', 'message': 'df'}
+2022-06-10 19:09:23,287 INFO client_logger Получено сообщение от пользователя test1: df
+2022-06-10 19:09:41,133 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50238), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:09:49,901 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'}
+2022-06-10 19:09:49,901 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654877389, 'from': 'test1', 'to': 'test2', 'message': 'ed'}
+2022-06-10 19:09:49,961 INFO client_logger Получено сообщение от пользователя test1: ed
+2022-06-10 19:10:05,555 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=512, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50238), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:10:10,437 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'}
+2022-06-10 19:10:10,437 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654877410, 'from': 'test1', 'to': 'test2', 'message': 'we'}
+2022-06-10 19:10:10,487 INFO client_logger Получено сообщение от пользователя test1: we
+2022-06-10 19:10:21,394 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=412, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50240), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:10:30,134 INFO client_logger Завершение работы клиента ('127.0.0.1', 50240) по команде пользователя
+2022-06-10 19:10:30,134 CRITICAL client_logger Потеряно соединение с сервером
+2022-06-10 19:10:39,466 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test1',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:10:39,466 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654877439, 'account_name': 'test1'}
+2022-06-10 19:10:39,466 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:10:39,548 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
+2022-06-10 19:11:43,396 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:11:43,396 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:11:43,396 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:11:43,396 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:11:43,397 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:11:43,397 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:11:43,397 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:11:45,937 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:11:45,938 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:11:45,938 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654877505, 'user': {'account_name': 'test1'}}
+2022-06-10 19:11:45,940 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:11:45,942 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:11:45,943 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:11:45,944 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:11:46,056 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654877506}
+2022-06-10 19:11:50,916 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:11:56,365 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:11:56,365 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654877516, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:11:56,421 INFO client_logger Получено сообщение от пользователя test1: asd
+2022-06-10 19:12:01,537 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=356, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 50275), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:12:12,996 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654877532, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:12:12,997 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654877532, 'from': 'test1', 'to': 'test2', 'message': 'asd'}
+2022-06-10 19:24:49,986 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:24:49,986 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:24:49,986 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:24:49,986 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:24:49,986 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:24:49,986 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:24:49,986 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:24:54,403 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:24:54,403 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:24:54,403 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654878294, 'user': {'account_name': 'test1'}}
+2022-06-10 19:24:54,403 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:24:54,403 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52188), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:24:54,403 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52188), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:24:54,403 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654878294}
+2022-06-10 19:24:54,403 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:24:58,796 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=472, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52188), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:25:04,981 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:25:04,981 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878304, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:25:04,997 INFO client_logger Получено сообщение от пользователя test1: asd
+2022-06-10 19:25:39,137 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:25:39,137 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:25:39,137 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:25:39,137 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:25:39,137 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:25:39,137 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:25:39,137 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:25:43,096 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:25:43,096 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:25:43,096 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654878343, 'user': {'account_name': 'test2'}}
+2022-06-10 19:25:43,096 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:25:43,096 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52196), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:25:43,096 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52196), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:25:43,096 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:25:43,196 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654878343}
+2022-06-10 19:25:46,890 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=348, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52196), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:25:51,601 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'}
+2022-06-10 19:25:51,601 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878351, 'from': 'test2', 'to': 'test1', 'message': 'zxc'}
+2022-06-10 19:26:17,733 INFO client_logger Получено сообщение от пользователя test2: zxc
+2022-06-10 19:28:44,424 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:28:44,424 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:28:44,424 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:28:44,424 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:28:44,424 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:28:44,424 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:28:44,424 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:28:47,616 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:28:47,616 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test1',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:28:47,616 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654878527, 'user': {'account_name': 'test1'}}
+2022-06-10 19:28:47,616 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:28:47,616 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52237), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:28:47,616 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52237), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:28:47,616 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:28:47,717 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654878527}
+2022-06-10 19:28:51,073 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52237), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:28:55,437 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:28:55,437 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878535, 'from': 'test1', 'to': 'test1', 'message': 'asd'}
+2022-06-10 19:28:55,499 INFO client_logger Получено сообщение от пользователя test1: asd
+2022-06-10 19:29:16,097 DEBUG client_logger Вызвана функция get_addr с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:29:16,097 DEBUG client_logger В параметрах запуска скрипта не передан адрес, назначен адрес по умолчанию: 127.0.0.1
+2022-06-10 19:29:16,097 INFO client_logger Адрес для подключения: 127.0.0.1
+2022-06-10 19:29:16,097 DEBUG client_logger Вызвана функция get_port с параметрами: args=(), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:29:16,097 DEBUG client_logger В параметрах запуска скрипта не передан порт, назначен порт по умолчанию: 7777
+2022-06-10 19:29:16,097 INFO client_logger Порт для подключения: 7777
+2022-06-10 19:29:16,097 INFO client_logger Запущен клиент с параметрами: адрес сервера 127.0.0.1, порт сервера 7777, режим двунаправленный
+2022-06-10 19:29:19,351 INFO client_logger Установлено подключение на адрес 127.0.0.1 порт 7777
+2022-06-10 19:29:19,351 DEBUG client_logger Вызвана функция msg_presence с параметрами: args=('test2',), kwargs={}, из модуля client.py, из функции main()
+2022-06-10 19:29:19,351 INFO client_logger Сообщение для отправки на сервер: {'action': 'presence', 'time': 1654878559, 'user': {'account_name': 'test2'}}
+2022-06-10 19:29:19,351 INFO client_logger Запущены потоки на приём сообщений и взаимодействие с пользователем
+2022-06-10 19:29:19,351 DEBUG client_logger Вызвана функция process_p2p_msg с параметрами: args=(<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52244), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:29:19,351 DEBUG client_logger Вызвана функция user_interactive с параметрами: args=(<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52244), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:29:19,351 DEBUG client_logger Вызвана функция print_help с параметрами: args=(), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:29:19,452 ERROR client_logger Получено некорректное сообщение от сервера: {'response': 200, 'alert': 'OK', 'time': 1654878559}
+2022-06-10 19:29:23,861 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52244), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:29:28,811 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'}
+2022-06-10 19:29:28,811 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878568, 'from': 'test2', 'to': 'test1', 'message': 'qw'}
+2022-06-10 19:29:28,896 INFO client_logger Получено сообщение от пользователя test2: qw
+2022-06-10 19:29:39,422 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=368, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52244), raddr=('127.0.0.1', 7777)>, 'test2'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:29:45,365 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'}
+2022-06-10 19:29:45,365 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878585, 'from': 'test2', 'to': 'test1', 'message': 'xc'}
+2022-06-10 19:29:45,450 INFO client_logger Получено сообщение от пользователя test2: xc
+2022-06-10 19:29:53,784 DEBUG client_logger Вызвана функция create_message с параметрами: args=(<socket.socket fd=336, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 52237), raddr=('127.0.0.1', 7777)>, 'test1'), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:30:00,013 DEBUG client_logger Сформировано сообщение для отправки: {'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'}
+2022-06-10 19:30:00,013 INFO client_logger Отправлено сообщение {'action': 'msg', 'time': 1654878600, 'from': 'test1', 'to': 'test2', 'message': 'edc'}
+2022-06-10 19:30:00,114 INFO client_logger Получено сообщение от пользователя test1: edc
+2022-06-10 19:30:14,034 DEBUG client_logger Вызвана функция msg_quit с параметрами: args=('test2',), kwargs={}, из модуля threading.py, из функции self._bootstrap_inner()
+2022-06-10 19:30:14,034 INFO client_logger Сообщение для отправки на сервер: {'action': 'quit', 'time': 1654878614, 'account_name': 'test2'}
+2022-06-10 19:30:14,034 INFO client_logger Завершение работы по команде пользователя
+2022-06-10 19:30:14,066 CRITICAL client_logger Произошло исключение: Expecting value: line 1 column 1 (char 0)
